@@ -1,24 +1,24 @@
 # ==================================================================== 
 # ===================// Task 1 - The Calculator App //================
 # ==================================================================== 
-# num1 = int(input("Enter the first number: "))
-# num2 = int(input("Enter the second number: "))
-# opertion = input("Please enter the opreration: add, subtract, multiply or divide: ")
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+opertion = input("Please enter the opreration: add, subtract, multiply or divide: ")
 
-# def calculate():
-#   if opertion == "add":
-#     return num1 + num2
-#   elif opertion == "subtract":
-#     return num1 - num2
-#   elif opertion == "multiply":
-#     return num1 * num2
-#   elif opertion == "divide":
-#     if num2 == 0:
-#        return "Error! Division by zero is not allowed."
-#     else:
-#       return num1 / num2
+def calculate():
+  if opertion == "add":
+    return num1 + num2
+  elif opertion == "subtract":
+    return num1 - num2
+  elif opertion == "multiply":
+    return num1 * num2
+  elif opertion == "divide":
+    if num2 == 0:
+       return "Error! Division by zero is not allowed."
+    else:
+      return num1 / num2
 
-# print(calculate());
+print(calculate());
 
   
 # ==================================================================== 
